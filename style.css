@@ -2,6 +2,16 @@ body {
     background-color: #FAF8F4;
 }
 
+main {
+    margin: 120px;
+    margin-top: 80px;
+    align-content: center;
+}
+
+p {
+    margin: 0px;
+}
+
 .color-1 {
     color: #04312c;
 }
@@ -14,6 +24,15 @@ body {
     text-decoration: none;
 }
 
+.titulo {
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 8px;
+}
 
 .onu {
     color: #FFFFFF;
@@ -41,4 +60,67 @@ header {
     padding-right: 20px;
     padding-left: 20px;
     border-bottom: 2px solid #EFEFEF;
+}
+
+
+
+.introducao-container {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 120px;
+}
+
+.texto-container {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.texto-intro {
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    color: #656565;
+    text-align: center;
+    line-height: 22px;
+    padding-top: 12px;
+}
+
+.imagem-container {
+    width: 600px;
+    justify-items: center;
+}
+
+.imagem-artigo {
+    width: 580px;
+    grid-column: 2;
+    grid-row: 1/3;
+    align-content: end;
+}
+
+.sobre-container {
+    margin-bottom: 180px;
+}
+
+.sobre-infos {
+    display: grid;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 20px;
+}
+
+.titulo-sobre {
+    text-align: center;
+    margin: 0px;
+}
+
+.sobre-texto {
+    grid-column: 2;
+    grid-row: 2/3;
+}
+
+.video {
+    grid-column: 1;
+    grid-row: 2/3;
 }
