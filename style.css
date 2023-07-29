@@ -9,22 +9,7 @@ main {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 1.5em;
-    margin: 8px;
-    line-height: 20px;
-    color: #011412;
-}
-
-li {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 8px;
-    line-height: 20px;
-    color: #011412;
-}
-
-span {
-    font-weight: bold;
+    margin: 0px;
 }
 
 .color-1 {
