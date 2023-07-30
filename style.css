@@ -14,7 +14,7 @@ p {
     text-align: start;
     text-indent: 1.5em;
     line-height: 22px;
-    padding-top: 12px;
+    padding-bottom: 12px;
     margin: 0px;
 }
 
@@ -40,6 +40,7 @@ span {
     text-transform: uppercase;
     font-size: 16px;
     text-decoration: none;
+    align-self: center;
 }
 
 .titulo {
@@ -49,7 +50,9 @@ span {
     font-size: 24px;
     text-decoration: none;
     text-align: center;
-    padding-bottom: 8px;
+    text-align: center;
+    margin: 0px;
+
 }
 
 .subtitulo {
@@ -61,12 +64,13 @@ span {
     text-align: start;
     padding-bottom: 0px;
     margin-top: 28px;
+    margin-bottom: 8px;
 }
 
 .onu {
     color: #FFFFFF;
     background: #FF9D01;
-    padding: 6px;
+    padding: 6px 8px;
     border-radius: 4px;
     text-decoration: none;
     font-family: "inter", Arial, Helvetica, sans-serif;
@@ -86,12 +90,17 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 4px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 54px;
+    padding-left: 40px;
     border-bottom: 2px solid #EFEFEF;
 }
 
 
+.detalhe{
+    display: block;
+    margin: auto;
+    width: 200px;
+}
 
 .introducao-container {
     display: grid;
@@ -104,6 +113,7 @@ header {
 .texto-container {
     grid-column: 1;
     grid-row: 1;
+    align-self: center;
 }
 
 .texto-intro {
@@ -111,7 +121,7 @@ header {
     color: #656565;
     text-align: center;
     line-height: 22px;
-    padding-top: 12px;
+    padding-top: 40px;
 }
 
 .imagem-container {
@@ -159,4 +169,65 @@ header {
     columns: 2;
     margin-bottom: 120px;
     margin-top: 48px;
+}
+
+.panorama-texto {
+    margin-top: 48px;
+}
+
+.link-externo {
+    text-decoration: none;
+    color: #307B74;
+    font-weight: 600;
+}
+
+.link-externo:hover {
+    text-decoration: underline;
+    color: #79B2AD;
+}
+
+.img-graficos {
+    max-width: 480px;
+    margin: 16px;
+    margin-left: 0px;
+}
+
+.abandono-escolar {
+    max-width: 620px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-bottom: 120px;
+}
+
+.links-historias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr;
+    gap: 20px;
+    margin-top: 48px;
+    margin-bottom: 120px;
+}
+
+
+
+.img-link {
+    display: block;
+    max-width: 300px;
+    justify-self: center;
+    margin: auto;
+}
+
+.chamada {
+    display: block;
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: initial;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.chamada:hover {
+    text-decoration: underline;
+    color: #307B74;
 }
