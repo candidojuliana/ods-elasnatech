@@ -14,10 +14,10 @@
     <header>
         <img src="imagens/LOGO (1).svg" alt="Logo Educare">
         <ul class="navegacao">
-            <li><a class="color-1 font-links" href="./">Sobre</a></li>
-            <li><a class="color-1 font-links" href="./">Objetivos</a></li>
-            <li><a class="color-1 font-links" href="./">Histórias e Projetos</a></li>
-            <li><a class="color-1 font-links" href="./">Contato</a></li>
+            <li><a class="menu-link color-1" href="#sobre">Sobre</a></li>
+            <li><a class="menu-link color-1" href="#objetivos">Objetivos</a></li>
+            <li><a class="menu-link color-1" href="#historias">Histórias e Projetos</a></li>
+            <li><a class="menu-link color-1" href="#contato">Contato</a></li>
             <li><a class="onu" href="https://brasil.un.org/pt-br/about/about-the-un" target="_blank">ONU</a></li>
         </ul>
     </header>
@@ -31,7 +31,7 @@
                 <img class="imagem-artigo" src="imagens/sala-de-aula.jpg" alt="Menina de camisa azaul e suéter laranja estudando">
         </div>
         </div>
-        <article>
+        <article id="sobre">
             <div class="sobre-container">
             <h2 class="titulo color-1 titulo-sobre">Sobre os Objetivos de Desenvolvimento Sustentável (ODS)</h2>
             <img class="detalhe" src="imagens/detalhe.svg" alt="">
@@ -46,7 +46,7 @@
                 </div>
             </div>
             </article>
-            <article>
+            <article id="objetivos">
             <h2 class="titulo color-1">Objetivo de Desenvolvimento Sustentável 4: Educação de qualidade</h2>
             <img class="detalhe" src="imagens/detalhe.svg" alt="">
             <ol class="lista-objetivos">
@@ -90,7 +90,7 @@
                     <img class="abandono-escolar" src="imagens/abandono-escolar.png" alt="Gráfico sobre evasão escolar no Brasil">
             </div>
             </article>
-            <section>
+            <section id="historias">
                 <h2 class="titulo color-1">Histórias e Projetos</h2>
                 <img class="detalhe" src="imagens/detalhe.svg" alt="">
                 <div class="links-historias">
@@ -116,17 +116,43 @@
             </section>
     </main>
     <footer>
-        <h3>Créditos</h3>
-        <ul class="creditos">
-            <li class="creditos-link"><a class="creditos-link" href=" https://www.pexels.com/pt-br/foto/filhos-sala-de-aula-educacao-instrucao-8923258/" target="_blank">Foto de Mikhail Nilov no Pexels</a></li>
-            <li class="creditos-link"><a class="creditos-link" href="https://www.pexels.com/pt-br/foto/banco-escolar-com-livros-didaticos-em-sala-de-aula-5905448/" target="_blank">Foto de Katerina Holmes no Pexels</a></li>
-            <li class="creditos-link"><a class="creditos-link" href="https://www.pexels.com/pt-br/foto/mesa-do-aluno-com-cadernos-e-estojo-5905443/" target="_blank">Foto de Katerina Holmes no Pexels</a></li>
-            <li class="creditos-link"><a class="creditos-link" href="https://pixabay.com/pt/photos/computador-escola-fones-de-ouvido-5130405/" target="_blank">Foto de Sweetlouise no Pixabay</a></li>
-            <li class="creditos-link"><a class="creditos-link" href="https://www.youtube.com/watch?v=pZ2RsinirlA&t=13s" target="_blank">Vídeo: Compreendendo as dimensões do desenvolvimento sustentável da ONU</a></li>
-            <li class="creditos-link"><a class="creditos-link" href="https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/18317-educacao.html" target="_blank">Gráficos PNAD (IBGE)</a></li>
-        </ul>
-        <h3>contato</h3>
-        <form action=""></form>
-    </footer>
-</body>
+        <div class="creditos-container">
+            <h3 class= "subtitulo color-1">Créditos</h3>
+            <ul class="creditos">
+                <li class="creditos-link"><a class="creditos-link" href=" https://www.pexels.com/pt-br/foto/filhos-sala-de-aula-educacao-instrucao-8923258/" target="_blank">Foto de Mikhail Nilov no Pexels</a></li>
+                <li class="creditos-link"><a class="creditos-link" href="https://www.pexels.com/pt-br/foto/banco-escolar-com-livros-didaticos-em-sala-de-aula-5905448/" target="_blank">Foto de Katerina Holmes no Pexels</a></li>
+                <li class="creditos-link"><a class="creditos-link" href="https://www.pexels.com/pt-br/foto/mesa-do-aluno-com-cadernos-e-estojo-5905443/" target="_blank">Foto de Katerina Holmes no Pexels</a></li>
+                <li class="creditos-link"><a class="creditos-link" href="https://pixabay.com/pt/photos/computador-escola-fones-de-ouvido-5130405/" target="_blank">Foto de Sweetlouise no Pixabay</a></li>
+                <li class="creditos-link"><a class="creditos-link" href="https://www.youtube.com/watch?v=pZ2RsinirlA&t=13s" target="_blank">Vídeo: Compreendendo os ODS da ONU</a></li>
+                <li class="creditos-link"><a class="creditos-link" href="https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/18317-educacao.html" target="_blank">Gráficos PNAD (IBGE)</a></li>
+            </ul>
+        </div>
+        <div class="autoria">
+            <p class="detalhes-autoria">Desenvolvido por <a class="detalhes-autoria" href="https://github.com/candidojuliana" target="_blank">Juliana Candido</a></p>
+            </div>
+        <div id="contato" class="contato-container">
+            <h3 class="subtitulo color-1">Contato</h3>
+            <form action="">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label class="color-1">Nome</label>
+                    <input type="text" name="Nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label class="color-1">Sobrenome</label>
+                    <input type="text" name="Sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label class="color-1">E-mail</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label  class="color-1">Mensagem</label>
+                <textarea name="Mensagem" id="mensagem" cols="30" rows="6"></textarea>
+                <button class="botao" type="submit">Enviar</button>
+        </form>
+    </div>
+        </footer>
+    </body>
 </html>
