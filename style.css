@@ -405,6 +405,10 @@ input:hover, textarea:hover, .botao:hover {
         max-width: fit-content;
     }
 
+    .detalhe {
+        display: none;
+    }
+
     .menu-link {
         display: none;
     }
@@ -442,6 +446,7 @@ input:hover, textarea:hover, .botao:hover {
 
     .introducao-container, .sobre-infos {
         margin: 32px;
+        margin-top: 20px;
         display: block;
         padding: 0;
     }
@@ -461,6 +466,12 @@ input:hover, textarea:hover, .botao:hover {
         width: 380px;
         justify-content: center;
 
+    }
+
+    iframe {
+        width: 380px;
+        margin-top: 20px;
+        
     }
 
     .lista-objetivos {
