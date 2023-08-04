@@ -444,7 +444,7 @@ input:hover, textarea:hover, .botao:hover {
         margin-bottom: 4px;
     }
 
-    .introducao-container, .sobre-infos {
+    .introducao-container, .sobre-infos, .sobre-container, .objetivos {
         margin: 32px;
         margin-top: 20px;
         display: block;
@@ -476,5 +476,7 @@ input:hover, textarea:hover, .botao:hover {
 
     .lista-objetivos {
         columns: 1;
+        margin-top: 12px;
+        margin-bottom: 12px;
     }
 }
