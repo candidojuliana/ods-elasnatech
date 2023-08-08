@@ -27,7 +27,7 @@
                 <h1 class="titulo color-1">Garantindo acesso à educação inclusiva e de qualidade</h1>
                 <p class="texto-intro" >ODS 4º, ou Objetivo de Desenvolvimento Sustentável 4, é um dos 17 objetivos estabelecidos pelas Nações Unidas em sua Agenda 2030 para o Desenvolvimento Sustentável. Este Objetivo tem como foco a educação de qualidade, buscando garantir uma educação inclusiva, equitativa e acessível para todos, ao longo da vida. Além disso, o ODS 4 busca fortalecer os sistemas educacionais, valorizar os professores e incentivar a construção de ambientes seguros e propícios para o aprendizado.</p>
             </div>
-            <div class="text-align">
+            <div class="imagem-container">
                 <img class="imagem-artigo" src="imagens/sala-de-aula.jpg" alt="Menina de camisa azaul e suéter laranja estudando">
         </div>
         </div>
@@ -127,32 +127,32 @@
                 <li class="creditos-link"><a class="creditos-link" href="https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/18317-educacao.html" target="_blank">Gráficos PNAD (IBGE)</a></li>
             </ul>
         </div>
-        <div class="autoria">
-            <p class="detalhes-autoria">Desenvolvido por <a class="detalhes-autoria" href="https://github.com/candidojuliana" target="_blank">Juliana Candido</a></p>
-            </div>
         <div id="contato" class="contato-container">
             <h3 class="subtitulo color-1">Contato</h3>
             <form action="">
-            <fieldset class="grupo">
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label class="color-1">Nome</label>
+                        <input type="text" name="Nome" id="nome" required>
+                    </div>
+                    <div class="campo">
+                        <label class="color-1">Sobrenome</label>
+                        <input type="text" name="Sobrenome" id="sobrenome" required>
+                    </div>
+                </fieldset>
                 <div class="campo">
-                    <label class="color-1">Nome</label>
-                    <input type="text" name="Nome" id="nome" required>
+                    <label class="color-1">E-mail</label>
+                    <input type="email" name="email" id="email" required>
                 </div>
                 <div class="campo">
-                    <label class="color-1">Sobrenome</label>
-                    <input type="text" name="Sobrenome" id="sobrenome" required>
-                </div>
-            </fieldset>
-            <div class="campo">
-                <label class="color-1">E-mail</label>
-                <input type="email" name="email" id="email" required>
+                    <label  class="color-1">Mensagem</label>
+                    <textarea name="Mensagem" id="mensagem" cols="30" rows="6"></textarea>
+                    <button class="botao" type="submit">Enviar</button>
+                </form>
             </div>
-            <div class="campo">
-                <label  class="color-1">Mensagem</label>
-                <textarea name="Mensagem" id="mensagem" cols="30" rows="6"></textarea>
-                <button class="botao" type="submit">Enviar</button>
-        </form>
-    </div>
+            <div class="autoria">
+                <p class="detalhes-autoria">Desenvolvido por <a class="detalhes-autoria" href="https://github.com/candidojuliana" target="_blank">Juliana Candido</a></p>
+                </div>
         </footer>
     </body>
-</html>
+    </html>

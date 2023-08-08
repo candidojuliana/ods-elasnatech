@@ -398,7 +398,7 @@ input:hover, textarea:hover, .botao:hover {
 @media (max-width: 800px) {
 
     main {
-        margin: 8px;
+        margin: 40px;
     }
 
     .detalhe {
@@ -414,7 +414,7 @@ input:hover, textarea:hover, .botao:hover {
         
     }
 
-    .text-align, .video {
+    .imagem-container, .video {
         text-align: center;
     }
 
