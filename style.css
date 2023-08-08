@@ -409,7 +409,7 @@ input:hover, textarea:hover, .botao:hover {
         
     }
 
-    .text-align {
+    .imagem-container, .video {
         text-align: center;
     }
 
