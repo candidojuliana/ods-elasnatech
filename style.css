@@ -265,7 +265,7 @@ header .onu:hover {
     color: #307B74;
 }
 
-footer {
+.rodape {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 40px;
@@ -396,8 +396,28 @@ input:hover, textarea:hover, .botao:hover {
 }
 
 @media (max-width: 800px) {
+
+    main {
+        margin: 8px;
+    }
     .menu-link {
         display: none;
     }
 
+    .introducao-container, .objetivos, .panorama, .links-historias {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .imagem-container {
+        text-align: center;
+    }
+
+    .sobre-infos, .rodape {
+        display: block;
+    }
+
+    .lista-objetivos {
+        columns: 1;
+    }
 }
