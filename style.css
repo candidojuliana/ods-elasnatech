@@ -400,6 +400,11 @@ input:hover, textarea:hover, .botao:hover {
     main {
         margin: 8px;
     }
+
+    .detalhe {
+        display: none;
+    }
+    
     .menu-link {
         display: none;
     }
