@@ -444,15 +444,16 @@ input:hover, textarea:hover, .botao:hover {
         margin-bottom: 4px;
     }
 
-    .introducao-container, .sobre-infos, .sobre-container, .objetivos {
+    .introducao-container, .sobre-infos, .sobre-container, .objetivos, .panorama {
         margin: 32px;
-        margin-top: 20px;
+        margin-top: 40px;
         display: block;
         padding: 0;
     }
 
-    .texto-intro {
+    .texto-intro, .panorama-texto {
         padding: 12px;
+        margin-top: 8px;
     }
 
     p, li {
@@ -462,7 +463,7 @@ input:hover, textarea:hover, .botao:hover {
         margin-top: 8px;
     }
 
-    .introducao-container img {
+    .introducao-container img, .img-graficos, .abandono-escolar {
         width: 380px;
         justify-content: center;
 
