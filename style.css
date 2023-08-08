@@ -395,10 +395,12 @@ input:hover, textarea:hover, .botao:hover {
     color: #307B74;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
     main {
+        width: 500px;
         margin: 12px;
+        align-self: center;
     }
 
     header {
@@ -444,7 +446,7 @@ input:hover, textarea:hover, .botao:hover {
         margin-bottom: 4px;
     }
 
-    .introducao-container, .sobre-infos, .sobre-container, .objetivos, .panorama {
+    .introducao-container, .sobre-infos, .sobre-container, .objetivos, .panorama, .links-historias {
         margin: 32px;
         margin-top: 40px;
         display: block;
@@ -479,5 +481,45 @@ input:hover, textarea:hover, .botao:hover {
         columns: 1;
         margin-top: 12px;
         margin-bottom: 12px;
+    }
+
+    .abandono-escolar {
+        margin-bottom: 20px;
+    }
+    .chamada {
+        padding: 0px;
+        margin: 40px;
+    }
+
+    .chamada h3 {
+        text-align: center;
+    }
+
+    footer {
+        display: block;
+        width: 320px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contato-container, .creditos-container, .autoria {
+        margin: 20px;
+
+    }
+
+    
+    fieldset {
+        display: flex;
+        gap: 12px;
+        border: 0;
+        padding: 0;
+    }
+
+    #nome, #sobrenome {
+        width: 180px;
+    }
+
+    #email, #mensagem {
+        width: 380px;
     }
 }
