@@ -434,6 +434,14 @@ input:hover, textarea:hover, .botao:hover {
         width: 468px;
     }
 
+    input {
+        height: 40px;
+    }
+
+    textarea {
+        height: 120px;
+    }
+
     .creditos-container {
         margin-left: 120px;
     }
@@ -472,6 +480,10 @@ input:hover, textarea:hover, .botao:hover {
 
     .creditos-container {
         margin-left: 120px;
+    }
+
+    input {
+        height: 40px;
     }
 
     fieldset {
