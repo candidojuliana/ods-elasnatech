@@ -442,6 +442,10 @@ input:hover, textarea:hover, .botao:hover {
         height: 120px;
     }
 
+    .botao {
+        padding: 12px 24px 12px 24px;
+    }
+
     .creditos-container {
         margin-left: 120px;
     }
@@ -492,5 +496,9 @@ input:hover, textarea:hover, .botao:hover {
 
     #nome, #sobrenome {
         width: 232px;
+    }
+
+    .botao {
+        padding: 12px 24px 12px 24px;
     }
 }
