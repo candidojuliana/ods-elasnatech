@@ -276,7 +276,7 @@ header .onu:hover {
 }
 
 .creditos-container {
-    grid-column: 1;
+    grid-column: 2;
     align-self: center;
     margin: 0;
 }
@@ -291,7 +291,7 @@ header .onu:hover {
 }
 
 .contato-container {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
     margin-left: 120px;
 }
@@ -424,5 +424,61 @@ input:hover, textarea:hover, .botao:hover {
 
     .lista-objetivos {
         columns: 1;
+    }
+
+    fieldset {
+        display: block;
+    }
+
+    #nome, #sobrenome {
+        width: 468px;
+    }
+
+    .creditos-container {
+        margin-left: 120px;
+    }
+
+    .autoria {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .detalhe {
+        display: none;
+    }
+
+    .menu-link {
+        display: none;
+    }
+
+    .introducao-container, .objetivos, .panorama, .links-historias {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .imagem-container, .video {
+        text-align: center;
+    }
+
+    .sobre-infos, .rodape {
+        display: block;
+    }
+
+    .lista-objetivos {
+        columns: 1;
+    }
+
+    .creditos-container {
+        margin-left: 120px;
+    }
+
+    fieldset {
+        display: block;
+    }
+
+    #nome, #sobrenome {
+        width: 232px;
     }
 }
